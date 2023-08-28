@@ -1,0 +1,101 @@
+.main-title {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.main-title .title {
+    color: #6373AB;
+    padding: 10px;
+}
+
+.button {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.button h4 {
+    cursor: pointer;
+}
+
+.main-content {
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-content input {
+    padding-right: 10px;
+    height: 30px;
+    border-color: red;
+}
+
+.apper {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    background-color: white;
+    opacity: 0.6;
+}
+
+.mousedown {
+    background-color: white;
+    opacity: 0.4;
+}
+
+.input-replace::placeholder {
+    color: #6373AB;
+    font-size: 18px;
+}
+
+.input-replace:focus {
+    color: #6373AB;
+}
+
+.main-title .icon {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.input-icon {
+    display: flex;
+    align-items: center;
+    margin-left: -200px;
+}
+
+.input-icon .icon {
+    padding-left: 5px;
+}
+
+.init-group {
+    border: solid 2px #e58c4d
+}
+
+.deleteIcon {
+    cursor: pointer;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.mainTitle {
+    text-align: center;
+}
+
+.btn-pdf {
+    display: flex;
+}
